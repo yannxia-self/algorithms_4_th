@@ -1,4 +1,4 @@
-package algorithms.chapter_2;
+package algorithms.sorting.elementray_sort;
 
 /**
  * Created by Yann.Xia on 2015/5/27.

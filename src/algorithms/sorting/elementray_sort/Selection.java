@@ -1,9 +1,4 @@
-package algorithms.chapter_2;
-
-import algorithms.Main;
-
-import java.util.Arrays;
-import java.util.List;
+package algorithms.sorting.elementray_sort;
 
 /**
  * Created by Yann.Xia on 2015/5/27.

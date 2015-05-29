@@ -1,4 +1,4 @@
-package algorithms.chapter_2;
+package algorithms.sorting.elementray_sort;
 
 import algorithms.utils.In;
 import algorithms.utils.StdOut;

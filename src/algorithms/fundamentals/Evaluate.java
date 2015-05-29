@@ -1,4 +1,4 @@
-package algorithms.chapter_1;
+package algorithms.fundamentals;
 
 import algorithms.utils.StdIn;
 import algorithms.utils.StdOut;

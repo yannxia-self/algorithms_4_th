@@ -1,4 +1,4 @@
-package algorithms.chapter_1;
+package algorithms.fundamentals;
 
 import algorithms.utils.StdIn;
 import algorithms.utils.StdOut;
@@ -6,17 +6,15 @@ import algorithms.utils.StdOut;
 /**
  * Created by Yann on 2015/5/26.
  */
-public class WeightedQuickUnionUF {
-    private int[] id; // parent link (site indexed)
-    private int[] sz; // size of component for roots (site indexed)
+public class UF {
+    private int[] id; // access to component id (site indexed)
     private int count; // number of components
 
-    public WeightedQuickUnionUF(int N) { // Initialize component id array.
+    public UF(int N) { // Initialize component id array.
         count = N;
         id = new int[N];
-        for (int i = 0; i < N; i++) id[i] = i;
-        sz = new int[N];
-        for (int i = 0; i < N; i++) sz[i] = 1;
+        for (int i = 0; i < N; i++)
+            id[i] = i;
     }
 
     public int count() {
@@ -28,29 +26,23 @@ public class WeightedQuickUnionUF {
     }
 
     public int find(int p) {
-        while (p != id[p]) p = id[p];
-        return p;
+        return id[p];
     }
 
     public void union(int p, int q) {
-        int i = find(p);
-        int j = find(q);
-        if (i == j) return;
-// Make smaller root point to larger one.
-        if (sz[i] < sz[j]) {
-            id[i] = j;
-            sz[j] += sz[i];
-        } else {
-            id[j] = i;
-            sz[i] += sz[j];
-        }
+        int pID = find(p);
+        int qID = find(q);
+
+        if (pID == qID) return;
+        for (int i = 0; i < id.length; i++)
+            if (id[i] == pID) id[i] = qID;
         count--;
     }
 
     // See page 222 (quick-find),page 224 (quick-union) andpage 228 (weighted).
     public static void main(String[] args) { // Solve dynamic connectivity problem on StdIn.
         int N = StdIn.readInt(); // Read number of sites.
-        WeightedQuickUnionUF uf = new WeightedQuickUnionUF(N); // Initialize N components.
+        UF uf = new UF(N); // Initialize N components.
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
             int q = StdIn.readInt(); // Read pair to connect.
