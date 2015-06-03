@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40013a34-dce7-4191-8d69-dc0b807f1dd1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/search/symbol_table/BinarySearchST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/search/symbol_table/ST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/search/symbol_table/SequentialSearchST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/search/symbol_table/TestBinarySearchST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/search/binary_search_tree/BST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithms_4_th.iws" />
@@ -34,38 +31,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#1323#1324#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,12 +73,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBinarySearchST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBinarySearchST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/search/symbol_table/TestBinarySearchST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40874037">
+            <state vertical-scroll-proportion="0.0">
               <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/search/binary_search_tree/BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.7806563">
+              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1860#1861#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#1920#1921#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
+                <element signature="e#2628#2629#0" expanded="true" />
+                <element signature="e#2670#2671#0" expanded="true" />
+                <element signature="e#2984#2985#0" expanded="true" />
+                <element signature="e#3022#3023#0" expanded="true" />
+                <element signature="e#3395#3396#0" expanded="true" />
+                <element signature="e#3433#3434#0" expanded="true" />
+                <element signature="e#3658#3659#0" expanded="true" />
+                <element signature="e#3698#3699#0" expanded="true" />
+                <element signature="e#4446#4447#0" expanded="true" />
+                <element signature="e#4487#4488#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/search/symbol_table/SequentialSearchST.java" />
         <option value="$PROJECT_DIR$/src/algorithms/search/symbol_table/BinarySearchST.java" />
         <option value="$PROJECT_DIR$/src/algorithms/search/symbol_table/TestBinarySearchST.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/search/binary_search_tree/BST.java" />
       </list>
     </option>
   </component>
@@ -210,6 +209,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,15 +266,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="symbol_table" />
+              <option name="myItemId" value="sorting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms_4_th" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms_4_th" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,7 +301,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../desgin_patterns" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -291,6 +312,9 @@
       <recent name="E:\Codes\algorithms_4_th\src\algorithms\utils" />
       <recent name="D:\Codes\algorithms_4_th\src\algorithms\chapter_1" />
       <recent name="D:\Codes\algorithms_4_th\src\algorithms\utils" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="algorithms.search" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algorithms.sorting.quicksort" />
@@ -684,11 +708,12 @@
       <workItem from="1433250337131" duration="20000" />
       <workItem from="1433250378537" duration="61000" />
       <workItem from="1433250464676" duration="2357000" />
+      <workItem from="1433333952888" duration="1701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26350000" />
+    <option name="totallyTimeSpent" value="28051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -696,28 +721,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31198686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31198686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -781,13 +806,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/elementray_sort/Shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/mergesort/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1114,7 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="55" column="5" selection-start-line="53" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,10 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#1095#1096#0" expanded="false" />
-            <element signature="e#1144#1145#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,38 +1146,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,9 +1185,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/search/symbol_table/TestBinarySearchST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40874037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/search/binary_search_tree/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7806563">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2670#2671#0" expanded="true" />
+            <element signature="e#2984#2985#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
+            <element signature="e#3395#3396#0" expanded="true" />
+            <element signature="e#3433#3434#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
+            <element signature="e#3698#3699#0" expanded="true" />
+            <element signature="e#4446#4447#0" expanded="true" />
+            <element signature="e#4487#4488#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
