@@ -1,5 +1,7 @@
 package algorithms.graph.spanning;
 
+import algorithms.collections.IndexMinPQ;
+
 /**
  * Created by Yann.Xia on 2015/6/10.
  */
@@ -36,7 +38,4 @@ public class PrimMST {
         }
     }
 
-    public Iterable<Edge> edges() // See Exercise 4.3.21.
-
-    public double weight() // See Exercise 4.3.31.
 }

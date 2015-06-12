@@ -1,6 +1,8 @@
 package algorithms.graph.spanning;
 
+import algorithms.collections.MinPQ;
 import algorithms.collections.Queue;
+import algorithms.fundamentals.UF;
 
 /**
  * Created by Yann.Xia on 2015/6/10.
@@ -26,5 +28,4 @@ public class KruskalMST {
         return mst;
     }
 
-    public double weight()
 }

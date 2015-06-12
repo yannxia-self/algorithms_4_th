@@ -1,5 +1,6 @@
 package algorithms.graph.spanning;
 
+import algorithms.collections.MinPQ;
 import algorithms.collections.Queue;
 
 /**
@@ -34,6 +35,4 @@ public class LazyPrimMST {
     public Iterable<Edge> edges() {
         return mst;
     }
-
-    public double weight() // See Exercise 4.3.31.
 }

@@ -11,7 +11,7 @@ public class Digraph {
     private int E;
     private Bag<Integer>[] adj;
 
-    public Digraph(In V) {
+    public Digraph(int V) {
         this.V = V;
         this.E = 0;
         adj = (Bag<Integer>[]) new Bag[V];
